@@ -6,6 +6,7 @@
 }
 body {
   font-family: "Open Sans Condensed", sans-serif;
+  margin: 0px;
 }
 .links {
   text-decoration: none;
@@ -66,9 +67,14 @@ hr {
 .hero {
   padding: 2rem;
 }
+.hero-img{
+  max-width: 15rem;
+  border-end-end-radius: 5rem;
+}
 .hero-heading {
   color: grey;
   padding: 3rem;
+  text-align: center;
 }
 .section h1 {
   text-align: center;
@@ -76,8 +82,19 @@ hr {
 }
 .of {
   background-color: var(--offwhite-color);
+  margin: auto;
 }
 .footer {
   background-color: blueviolet;
   padding: 1rem 2rem;
+  text-align: center;
+  color: white;
+  border-top-right-radius: 1rem;
+}
+.footer .links{
+    color: white;
+}
+.footer-heading{
+  font-weight: bold;
+  font-size: larger
 }
