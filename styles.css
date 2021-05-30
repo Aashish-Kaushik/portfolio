@@ -1,0 +1,39 @@
+style>
+@import url('https://fonts.googleapis.com/css2?family=Mate+SC&family=Open+Sans+Condensed:wght@300&display=swap');
+</style>
+:root{
+    --primary-color: red;
+}
+body{font-family: 'Mate SC', serif;
+    font-family: 'Open Sans Condensed', sans-serif;
+
+}
+.container{
+    padding-left:1rem:
+    padding-right:1rem;
+    max-width: 600px;
+    margin:auto;
+}
+.primarylinks{
+    color: var(--primary-color);
+    text-decoration: none;
+    padding: 05rem 1rem;
+    background-color:blue;
+
+    border-radius: 0.5rem
+    color:white;
+}
+.secondarylinks{
+    color: var(--primary-color);
+    border-radius: 0.5rem;
+    padding: 0.5rem 1rem;
+    border-radius: 1px solid var(--primary-color);
+    text-decoration: none;
+}
+hr{
+    margin: 3rem 0rem;
+}
+.non-bullet{
+    list-style: none;
+
+}
