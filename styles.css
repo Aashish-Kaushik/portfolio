@@ -1,11 +1,12 @@
-@import url("https://fonts.googleapis.com/css2?family=Mate+SC&family=Open+Sans+Condensed:wght@300&display=swap");
-
+@import url("https://fonts.googleapis.com/css2?family=Contrail+One&family=Raleway:ital,wght@0,200;0,400;0,600;0,800;0,900;1,200;1,400;1,600;1,800;1,900&display=swap");
+/* font-family: 'Contrail One', cursive; */
+/* font-family: 'Raleway', sans-serif; */
 :root {
-  --primary-color: blue;
+  --primary-color: blueviolet;
   --offwhite-color: #f3f4f6;
 }
 body {
-  font-family: "Open Sans Condensed", sans-serif;
+  font-family: "Raleway", sans-serif;
   margin: 0px;
 }
 .links {
@@ -19,10 +20,11 @@ body {
   margin: auto;
 }
 .primarylinks {
-  color: var(--primary-color);
-  background-color: blue;
+  background-color: var(--primary-color);
+
   border-radius: 0.5rem;
   color: white;
+  display: inline-block;
 }
 .secondarylinks {
   color: var(--primary-color);
@@ -39,9 +41,10 @@ hr {
   display: inline;
   padding: 0rem 0.5rem;
 }
-.navigation .nav-brand {
+.navigation-container .nav-brand {
+  font-family: "Contrail One", cursive;
   font-weight: bold;
-  font-size: 1.1rem;
+  font-size: 1.6rem;
 }
 .navigation-container {
   background-color: var(--primary-color);
@@ -56,8 +59,8 @@ hr {
   color: white;
 }
 .hero .hero-img {
-  width: 10rem;
-  max-width: 350px;
+  border-radius: 50%;
+  max-width: 320px;
   display: block;
   margin: auto;
 }
@@ -67,18 +70,21 @@ hr {
 .hero {
   padding: 2rem;
 }
-.hero-img{
-  max-width: 15rem;
-  border-end-end-radius: 5rem;
-}
+
 .hero-heading {
-  color: grey;
-  padding: 3rem;
+  padding: 0;
   text-align: center;
+  margin: 0%;
+  margin-top: 1rem;
 }
 .section h1 {
   text-align: center;
-  padding: 1.5rem;
+  padding-bottom: 1rem;
+  margin: 0%;
+}
+.section {
+  padding: 2rem 3rem;
+  text-align: center;
 }
 .of {
   background-color: var(--offwhite-color);
@@ -91,10 +97,23 @@ hr {
   color: white;
   border-top-right-radius: 1rem;
 }
-.footer .links{
-    color: white;
+.footer .links {
+  color: white;
 }
-.footer-heading{
+.footer-heading {
   font-weight: bold;
-  font-size: larger
+  font-size: larger;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Contrail One", cursive;
+}
+.sub-headind {
+  font-size: x-large;
+  text-align: center;
+  margin: 0;
 }
