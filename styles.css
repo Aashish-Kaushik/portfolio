@@ -9,9 +9,10 @@ body {
   font-family: "Raleway", sans-serif;
   margin:0;
 }
-.links {
+.links:hover {
   text-decoration: none;
   padding: 0.5rem 1rem;
+  color: red;
 }
 .container {
   padding-left: 1rem;
@@ -135,5 +136,7 @@ h6 {
   color: rgba(255,255,255,.54);
   box-shadow: 0 0 1px rgba(255,255,255,0.54);
 }
-
+a:hover{
+  color: red;
+}
 
