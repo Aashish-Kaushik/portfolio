@@ -2,18 +2,22 @@
 /* font-family: 'Contrail One', cursive; */
 /* font-family: 'Raleway', sans-serif; */
 :root {
-  --primary-color: blueviolet;
-  --offwhite-color: #e3e6e9;
+  --primary-color: hsl(271, 76%, 53%);
+  --primary-color-dark: hsl(271, 76%, 43%);
+  --offwhite-color: hsl(210, 12%, 90%);
 }
 body {
   font-family: "Raleway", sans-serif;
-  margin:0;
+  margin: 0;
 }
-.links:hover {
+.links {
   text-decoration: none;
   padding: 0.5rem 1rem;
-  color: red;
 }
+/* .links:hover {
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+} */
 .container {
   padding-left: 1rem;
   padding-right: 1rem;
@@ -22,15 +26,21 @@ body {
 }
 .primarylinks {
   background-color: var(--primary-color);
-
+  border: 1px solid;
   border-radius: 0.5rem;
   color: white;
   display: inline-block;
+}
+.primarylinks:hover {
+  background-color: var(--primary-color-dark);
 }
 .secondarylinks {
   color: var(--primary-color);
   border-radius: 0.5rem;
   border: 1px solid var(--primary-color);
+}
+.secondarylinks:hover {
+  background-color: rgb(231, 231, 231);
 }
 hr {
   margin: 3rem 0rem;
@@ -97,7 +107,6 @@ hr {
   text-align: center;
   color: white;
   border-top-right-radius: 1rem;
-  
 }
 .footer .links {
   color: white;
@@ -119,24 +128,12 @@ h6 {
   text-align: center;
   margin: 0;
 }
-.icon{
-  width: 2rem;
+.icon {
   width: 40px;
-  height: 35px;
   text-align: center;
-  display: block;
   margin: 10px;
-  border-radius: 2px;
   transition: all 300ms;
   display: inline-block;
   border-radius: 50%;
-  border: 1px solid rgba(255,255,255,.54);
+  border: 1px solid rgba(255, 255, 255, 0.54);
 }
-.icon {
-  color: rgba(255,255,255,.54);
-  box-shadow: 0 0 1px rgba(255,255,255,0.54);
-}
-a:hover{
-  color: red;
-}
-
